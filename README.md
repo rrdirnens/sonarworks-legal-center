@@ -1,5 +1,9 @@
 # Sonarworks legal center
 
+## Live site available on Netlify at:
+
+https://peaceful-aryabhata-0b195d.netlify.app/
+
 ## Project setup
 
 clone repo and run
