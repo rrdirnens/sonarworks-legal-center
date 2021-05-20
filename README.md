@@ -1,6 +1,8 @@
-# vue-code-example
+# Sonarworks legal center
 
 ## Project setup
+
+clone repo and run
 ```
 npm install
 ```

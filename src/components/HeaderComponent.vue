@@ -4,7 +4,7 @@
       <a href="/" class="header__sonarworks-link">Sonarworks</a>
     </div>
     <div class="header__center">
-      Legal center
+      Legal centre
     </div>
     <div class="header__right">
       <img class="header__image" src="../assets/soundid-symbol.svg" alt="SoundID logo">
