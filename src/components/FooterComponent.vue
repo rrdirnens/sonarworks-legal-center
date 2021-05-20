@@ -6,20 +6,7 @@
 
 <script>
 export default {
-  name: "FooterComponent",
-  data() {
-    return {
-      hello: 'hi'
-    };
-  },
-
-  methods: {
-    
-  },
-
-  created() {
-    
-  },
+  name: "FooterComponent"
 };
 </script>
 

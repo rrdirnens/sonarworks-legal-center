@@ -6,6 +6,8 @@ https://peaceful-aryabhata-0b195d.netlify.app/
 
 ## Project setup
 
+In order to run the project locally, all you need is Node and NPM. You can find simple and detailed instruction on getting both on Mac and Windows here: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm 
+
 clone repo and run
 ```
 npm install
