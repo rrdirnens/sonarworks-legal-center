@@ -1,0 +1,45 @@
+//Import variables
+@import 'variables';
+
+//Fonts 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+//Import blocks
+@import 'blocks/header/header';
+@import 'blocks/footer/footer';
+@import 'blocks/home/legal-center';
+@import 'blocks/legal-pages/legal-page';
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: $main-font;
+
+    &.subjective-fix {
+
+    }
+
+    @at-root .main {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+p , li{
+    color: $dark-gray;
+    font-size: 16px;
+}
+
+tbody tr:nth-child(even) {
+    background: $light-gray;
+}
+
+tbody td{
+    padding: 12px;
+}

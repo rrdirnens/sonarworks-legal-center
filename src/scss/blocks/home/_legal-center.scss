@@ -1,0 +1,39 @@
+.legal-center {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    @at-root .legal-center__link {
+        height: 97px;
+        border-bottom: 1px solid #d8d9da;
+        padding: 16px 16px 16px 18px;
+        text-decoration: none;
+
+        @at-root .legal-center__link-inner {
+            display: flex;
+            align-items: center;
+
+            @at-root .legal-center__link-text {
+                color: #000;
+                text-decoration: none;
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: -0.5px;
+            }
+            @at-root .legal-center__link-image {
+                width: 20px;
+                margin-left: 7px;
+                transition: .2s;
+                vertical-align: middle;
+            }
+        }
+
+        @at-root &:hover {
+            @media only screen and (min-width: 480px) {
+                .legal-center__link-image {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}

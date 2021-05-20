@@ -1,0 +1,15 @@
+.footer {
+    height: 96px;
+    background-color: $black;
+    padding: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    @at-root .footer__copyright {
+        color: $light-gray;
+        font-size: 11px;
+        line-height: 16px;
+        margin: 0;
+    }
+}
